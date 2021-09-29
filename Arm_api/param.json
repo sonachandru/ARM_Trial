@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "s-sql-serverAdminLogin": {
+      "value": "sonadb"
+    },
+    "s-sql-serverAdminLoginPassword": {
+      "value": "test1234#"
+    },
+    "sona-dbName": {
+      "value": "sona-db"
+    },
+    "serviceBusNamespaceName": {
+      "value": "sonasb"
+    },
+    "serviceBusQueueName": {
+      "value": "sampq"
+    }
+  }
+}
